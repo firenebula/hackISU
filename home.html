@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    <img src="cat.jpg" id = "catpic" alt="cat">
+    <h1>word.HACK...</h1>
+
+    <form>
+      <fieldset>
+        <legend>Rhymes</legend>
+        
+        <input type="text" name="rhymeWord" id="rhymeWord">
+        <input type="submit" id="rhymeSubmit" value = "Fetch Rhymes">
+        
+
+        
+      </fieldset>
+    </form>
+
+    <br/>
+
+
+<form>
+      <fieldset>
+        <legend>Similiar Word</legend>
+        
+        <input type="text" name="simWord" id="simWord">
+        <input type="submit" id="simSubmit" value = "Get Similiar">
+        <br/>
+
+        
+      </fieldset>
+    </form>
+
+
+
+        <br/>
+        
+        
+
+<form>
+      <fieldset>
+        <legend>Part of Speech</legend>
+        
+        <select id="spcWord">
+        <option value="noun">Noun</option>
+        <option value="verb">Verb</option>
+        <option value="adjective">Adjective</option>
+        <option value="adverb">Adverb</option>
+      </select>
+      <input type="submit" id="spcSubmit" value = "Speech Me">
+       
+
+        
+      </fieldset>
+    </form>
+
+
+
+        <br/>
+        
+
+
+
+<form>
+      <fieldset>
+        <legend>Random Word</legend>
+        
+        
+        <input type="submit" id="ranSubmit" value = "Be Random!">
+        <br/>
+
+        
+      </fieldset>
+    </form>
+
+
+
+        <br/>
+        <br/>
+
+
+
+        <div id="rhymeDiv"></div>
+
+
+    <script src = "rhyme.js"></script>
+
+
+
+  </body>
+</html>

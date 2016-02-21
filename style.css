@@ -1,0 +1,73 @@
+body {
+    background-color: grey;
+    font-size:150%;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+    font-size:75px;
+    color: #87CEFA;
+ 
+    
+}
+
+legend{
+
+    text-align: left;
+
+}
+
+
+div{
+
+    background-color: white;
+    max-width: 50%;
+    margin: auto;
+    padding: 50px 30px 50px 80px;
+    border: 3px solid black;
+}
+
+
+input[type=text]{
+
+    width:60%;
+    margin: auto;
+
+}
+
+select, option {
+
+    width:60%;
+    margin: auto;
+
+}
+
+fieldset{
+
+    max-width: 25%;
+    text-align: center;
+    margin: auto;
+
+
+
+}
+
+#ranSubmit { 
+    font-size: 30px;
+    width:100%;
+    
+}
+
+#catpic{
+    display: block;
+    margin: 0 auto;
+    height: auto; 
+    width: auto; 
+    max-width: 225px; 
+    max-height: 225px;
+    border-radius: 100px;
+
+
+
+}
